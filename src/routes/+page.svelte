@@ -15,6 +15,7 @@
 	import DevIcon from '$lib/components/icons/DevIcon.svelte';
 	import EmailIcon from '$lib/components/icons/EmailIcon.svelte';
 	import Link from '$lib/components/SideLink.svelte';
+	import Projects from '$lib/components/Projects.svelte';
 
 	export let data: PageServerData;
 	$weather = data.weather;
@@ -85,6 +86,12 @@
 				<p>I like to write about stuff sometimes, all of these are hosted on DEV.to:</p>
 				<Posts />
 			</div>
+
+      <div class="mb-32">
+        <h2 class="text-xl md:text-2xl font-bold text-primary-100 mb-4">Featured Projects</h2>
+        <p>Projects that I'm really proud of, and also poured too much time in.</p>
+        <Projects />
+      </div>
 		</main>
 	</svelte:fragment>
 </ContentLayout>
