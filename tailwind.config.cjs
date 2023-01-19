@@ -4,14 +4,14 @@ module.exports = {
 	theme: {
 		colors: {
 			background: {
-				200: '#0f0e0a',
-				100: '#2a2b47'
+				100: '#0f0e0a',
+				200: '#2a2b47'
 			},
 			primary: {
-				200: '#6764BD',
-				100: '#9667BE'
+				100: '#4D55A1',
+				200: '#7E7BC7'
 			},
-			highlight: '#fcbf49',
+			highlight: '#FDAF33',
 			borders: '#242039',
 			black: '#000',
 			white: '#fff',
